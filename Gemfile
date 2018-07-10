@@ -52,7 +52,7 @@ end
 group :production do
   # the required gem to deploy the app to heroku
   # pg=postgresql
-  gem 'pg'
+  gem 'pg', '~> 0.20'
   gem 'rails_12factor'
 end
 
